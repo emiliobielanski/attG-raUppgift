@@ -1,0 +1,68 @@
+body{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(img/abstract-blue-background-simple-design-for-your-website-free-vector.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: 1fr,1fr,1fr,4fr;
+    grid-template-columns: repeat(7,1fr);
+}
+#färdigasysslor{
+    margin-left: 15%;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    max-width: 350px;
+    background-color: rgb(219, 247, 255);
+    border-radius: 5%;
+    justify-content: center;
+    grid-column: 5 / 7;
+}
+#attgöra{
+    margin-left: 15%;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    max-width: 350px;
+    background-color: rgb(219, 247, 255);
+    border-radius: 5%;
+    justify-content: center;
+    grid-column: 2 / 4;
+}
+h2{
+    color: darkslategrey;   
+    vertical-align: top;
+}
+div{
+    
+    font-size: 120%;
+    vertical-align: top;
+}
+.läggtill{
+    grid-column: 4 / 6;
+    grid-row: 1 ;
+    font-size: 140%;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
+}
+#syssla{
+    grid-row: 0;
+    grid-column: 4 / 6;
+}
+
+input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+ul li::before {
+    content: "\2022";
+    color: rgb(25, 0, 124); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
